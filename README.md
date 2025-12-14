@@ -7,18 +7,30 @@
 #### Installation Guide
 
 1. Install **Chromium** and **Chromedriver**:
+   
+   **On Windows:**
+   - Download ChromeDriver from: https://googlechromelabs.github.io/chrome-for-testing/
+   - Match the version with your Chrome browser (e.g., version 143 for Chrome 143)
+   - Extract `chromedriver.exe` and place it in your project folder or add to Windows PATH
+   
+   **On window
+:**
    ```bash
    sudo apt install chromium-chromedriver
    ```
 
 2. Install **Python3** and **Pip**:
+   
+   **On Windows:** Download from https://www.python.org/downloads/
+   
+   **On Linux:**
    ```bash
 	sudo apt install python3-pip
 	```
 
 3. Install the **required** dependencies:
    ```bash
-	pip3 install -r requirements.txt
+	pip install -r requirement.txt
 	```
 
 
